@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.ipynb_checkpoints/
+
+# Spark / Delta local
+spark-warehouse/
+bronze/
+silver/
+gold/
+landing/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
